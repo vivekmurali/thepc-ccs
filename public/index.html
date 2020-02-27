@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>THEPC Core Committee Selections</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="container">
+                <div class="signup-content">
+
+                    <form method="POST" id="signup-form" action="/sign_up" class="signup-form">
+                        <h2 class="form-title">THE HINDU EDUCATION PLUS CLUB</h2>
+                        <ul class="info-list" style="list-style: none;font-size: 24px;"><b>
+                            <li>Only for first years</li>
+                            <li>11th March</li>
+                            <li>11:30 am to 1:00 pm</li>
+                            <li>*room number*</li>
+                        </b>
+                        </ul>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="name" id="name" placeholder="Your Name" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="reg" id="reg-no" placeholder="Registration No" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email" required/>
+                        </div>
+                       
+                        <div class="form-group">
+                            <input type="number" class="form-input" name="phone" id="contact" placeholder="Contact number" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="how" id="how-thepc" placeholder="How did you hear about THEPC?"/>
+                        </div>
+                        <h3>Department(s) you would like to apply for:</h3>
+                        
+                        <ul class="ks-cboxtags">
+                            <li><input name="department" type="checkbox" id="checkboxOne" value="Editorial"><label for="checkboxOne">Editorial</label></li>
+                            <li><input name="department" type="checkbox" id="checkboxTwo" value="Design" ><label for="checkboxTwo">Design</label></li>
+                            <li><input name="department" type="checkbox" id="checkboxThree" value="Media" ><label for="checkboxThree">Media</label></li>
+                            <li><input name="department" type="checkbox" id="checkboxFour" value="Finance"><label for="checkboxFour">Finance</label></li>
+                            <li><input name="department" type="checkbox" id="checkboxFive" value="Tech"><label for="checkboxFive">Tech</label></li>
+                            
+                          </ul>
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Submit"/>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
